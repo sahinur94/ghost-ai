@@ -4,32 +4,37 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Phase
 
-- Not started
+- Feature 01 — Design System
 
 ## Current Goal
 
-- Define the immediate implementation goal here.
+- Install and configure shadcn/ui, lucide-react, and the cn() utility. Add Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea components. Apply full dark theme tokens.
 
 ## Completed
 
-- None yet.
+- Next.js 16 boilerplate cleaned up (globals.css stripped, SVGs removed, page.tsx reset)
+- Git repo initialized and connected to github.com/sahinur94/ghost-ai
+- context/ docs committed
+- 01-design-system: shadcn/ui (radix-nova), lucide-react, cn() utility, Button/Card/Dialog/Input/Tabs/Textarea/ScrollArea — dark-only theme applied, tsc clean
 
 ## In Progress
 
-- None yet.
+- None.
 
 ## Next Up
 
-- Add the next planned feature unit here.
+- 02: Authentication with Clerk
+- 03: Database schema with Prisma + PostgreSQL
 
 ## Open Questions
 
-- Add unresolved product or implementation questions here.
+- None yet.
 
 ## Architecture Decisions
 
-- Add decisions that affect the system design or data model.
+- None yet.
 
 ## Session Notes
 
-- Add context needed to resume work in the next session.
+- Tailwind v4 is in use — @import "tailwindcss" only, no tailwind.config.js. CSS variables defined in globals.css under @theme inline.
+- shadcn/ui components live in components/ui/ and must not be modified after generation.
